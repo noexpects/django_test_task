@@ -1,6 +1,8 @@
 from django.shortcuts import reverse
 from django.test import TestCase
-from ..models import User
+from django.contrib.auth import get_user_model
+
+User = get_user_model()
 
 
 class UsersTestCase(TestCase):
