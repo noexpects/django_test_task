@@ -1,3 +1,5 @@
+Task description:
+
 Set up a basic latest Django installation
 
  Extend the User model to have
